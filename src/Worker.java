@@ -12,7 +12,7 @@ public class Worker {
             if (i != 33) {
                 callback.onDone("Task " + i + " is done");
             } else {
-                errorCallback.onError("Task " + i + " is done with ERROR");
+                errorCallback.onError("Task " + i + " is done with ERROR!");
             }
         }
     }
